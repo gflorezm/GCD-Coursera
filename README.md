@@ -14,15 +14,14 @@ Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/g
 3. Create a Code Book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 4. Create the Analysis R Script <br />
 
-## Arquives
 
+## Arquives
 Name | Description | Link
 --- | --- | --- 
 Tidy data set | Final data set in tidy format | [HumanActivity_tidy.csv](https://github.com/gflorezm/GCD-Coursera/blob/master/HumanActivity_tidy.csv)
 Code Book | Describes the data and the transformations performed | [CodeBook.md](https://github.com/gflorezm/GCD-Coursera/blob/master/CodeBook.md)
 R Script | R Script for the data transformations (see `CodeBook.md` or the notes in the code for more information) | [Run_analysis.R](https://github.com/gflorezm/GCD-Coursera/blob/master/Run_analysis.R)
 
-<br />
 
 **The R script `run_analysis.R` does the following:**
 
