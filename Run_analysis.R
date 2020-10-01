@@ -69,9 +69,10 @@ colnames(merg_x) <- features[,2]
 colnames(merg_y) <-"activity"
 colnames(subjects) = "subject"
 
-# merge all the data and delete the individual data frames (to save memory)
+# merge all the data
 DATA <- bind_cols(subjects, merg_x, merg_y)
 
+# delete the individual data frames (to save memory)
 rm(x_test, x_train, y_test, y_train, subj_test, subj_train,
    merg_x, merg_y, subjects, features)
 
@@ -133,6 +134,9 @@ HumanActivity_tidy <- DATA2 %>%
      group_by(subject, activity) %>%
      summarise(across(.fns = mean))
 
+write.table(HumanActivity_tidy, "./HumanActivity_tidy.txt", row.names = FALSE)
+
+# also write the data in format csv to improve the visualization in GitHub
 write.csv(HumanActivity_tidy, "./HumanActivity_tidy.csv", row.names = FALSE)
 
 
