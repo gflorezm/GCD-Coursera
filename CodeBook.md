@@ -69,6 +69,5 @@ The final product of the script is the `HumanActivity_tidy.txt` data set (see al
 **Variable names**
 The original variable names and acronyms are discrabed in the document `features_info.txt`. I changed the variable names to be easier for the human eye to read (see **Step 4**). For example:
 
-
 - a variable called `tBodyAcc-mean()-X` in the original data, in the tidy data set it is called `timeBodyAccelerator-mean()-X`
 - a variable called `tBodyBodyAccJerkMagnitude-mean()` in the original dat, in the tidy data set it is called `timeBodyAcceleratorJerkMagnitude-mean()`
