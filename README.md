@@ -18,10 +18,11 @@ Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/g
 
 Name | Description | Link
 --- | --- | --- 
-Tidy data set | Final data set in tidy format | [data_set.txt]
-Code Book | Describes the data and the transformations performed | [CodeBook.md]
+Tidy data set | Final data set in tidy format | [HumanActivity_tidy.csv](https://github.com/gflorezm/GCD-Coursera/blob/master/HumanActivity_tidy.csv)
+Code Book | Describes the data and the transformations performed | [CodeBook.md](https://github.com/gflorezm/GCD-Coursera/blob/master/CodeBook.md)
 R Script | R Script for the data transformations (see `CodeBook.md` or the notes in the code for more information) | [Run_analysis.R](https://github.com/gflorezm/GCD-Coursera/blob/master/Run_analysis.R)
 
+<br />
 
 **The R script `run_analysis.R` does the following:**
 
